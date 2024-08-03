@@ -1,0 +1,23 @@
+
+<!-- better preformance -->
+
+<button id="bt" class="bg-sky-300 p-3 rounded-xl">change</button>
+<ng-content ></ng-content>
+<!-- points to the design from another compnenet -->
+
+
+
+
+
+
+<div class="grid    grid-cols-3 gap-4 text-center   p-12">
+    @for(items of data ; track $index){
+
+
+
+            <app-bookpro [product]="items" [iseven]="$index"></app-bookpro>
+            
+            
+        }
+        
+    </div>

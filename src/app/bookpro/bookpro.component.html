@@ -1,0 +1,53 @@
+
+
+
+
+
+
+
+
+
+
+        <div  
+        class="  flex flex-col justify-center items-center border-solid border-gray-400 border-2 
+        rounded">
+    
+    
+        
+
+        <h3>{{iseven}}</h3>
+            <h2 class="text-3xl font-medium p-3">{{product.title}}</h2>
+            <img [src]="product.img">
+            <p class="text-xl p-3">{{product.descpretion}}</p>
+            
+
+
+
+            @if(product.isborrowed==true){
+
+                <button class="px-6 py-2 m-2 bg-red-400 ">Borrow</button>
+            }
+
+
+            @else{
+
+                <button  class="px-6 py-2 m-2 bg-yellow-800 ">Borrow</button>
+            
+
+            }
+    
+        </div>
+
+
+        
+    
+    
+    
+    
+
+
+
+
+
+    
+

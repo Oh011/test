@@ -1,0 +1,39 @@
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+
+
+<div class="options-cont flex justify-center text-center m-4">
+
+
+  <div class="options w-1/2 bg-sky-400 flex justify-center gap-14 p-5 rounded border-dashed border-black border-2">
+
+  <a routerLink="new">new products</a>
+  <a routerLink="old">old products</a>
+
+
+
+  <i class="fa-solid fa-heart cursor-pointer text-emerald-500"></i>
+  </div>
+
+
+
+</div>
+
+
+
+<<router-outlet>
+
+
+</router-outlet>
